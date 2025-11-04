@@ -15,7 +15,8 @@ explain things in a simple, friendly way.
 INSTRUCTIONS:
 -------------
 Read customers.csv. Use the dictionary provided in the code comment
-to map the state_code column to full state names. Store the result in
+to map the state_code column to full state names using the .map() function. You
+can look this function up first. Store the result in
 a new column called state_name, then print the updated DataFrame.
 '''
 

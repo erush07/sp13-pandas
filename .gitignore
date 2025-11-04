@@ -1,4 +1,8 @@
+sales.csv
 .DS_Store
+high_value.xlsx
+library_books.xlsx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

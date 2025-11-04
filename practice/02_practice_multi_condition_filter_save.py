@@ -15,7 +15,7 @@ explain things in a simple, friendly way.
 INSTRUCTIONS:
 -------------
 Filter the sales data for rows where Units are at least 10 and Region is "West"
-using df.loc with a compound condition. Write the result to a new Excel file
+using df.query(). Write the result to a new Excel file
 named high_value.xlsx so the original CSV stays unchanged.
 '''
 
