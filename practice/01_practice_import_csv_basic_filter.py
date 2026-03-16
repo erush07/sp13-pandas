@@ -18,3 +18,7 @@ Load sales_q1.csv and display all rows where Revenue is greater than 5000. Use
 the .query() method for the filtering. Do not modify the file.
 '''
 
+import pandas as pd
+
+df = pd.read_csv("sales_q1.csv")
+print(df.query("Revenue > 5000"))
